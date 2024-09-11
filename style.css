@@ -34,6 +34,18 @@ form input, form button{
     background: white;
 }
 
+form input.todo-input {
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: 2px solid white; 
+    background: white;
+}
+
+input.todo-input:focus{
+    border-color: #ff6f47;
+    outline: none; 
+}
+
 form button{
     color: #d88771;
     background: white;
@@ -138,4 +150,13 @@ select{
 .select:hover::after{
     background: white;
     color: #ff6f47;
+}
+
+.pen{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: black;
+    font-size: 1.2rem;
+    margin-top: 3rem;
 }
