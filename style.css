@@ -19,6 +19,7 @@ header, form{
 
 header{
     font-size: 1.5rem;
+    display: flex;
     flex-direction: column;
 }
 
@@ -159,4 +160,17 @@ select{
     color: black;
     font-size: 1.2rem;
     margin-top: 3rem;
+}
+
+@media (max-width: 768px){
+    header{
+        width: 95vw;
+        text-align: center;
+        gap: 2rem;
+        margin: 2rem auto;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+    }
 }
