@@ -1,5 +1,5 @@
 
-# News homepage
+# T0-D0 List
 
 This is To-Do list to help keep track of activities. 
 
